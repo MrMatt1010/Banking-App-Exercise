@@ -53,14 +53,14 @@ int main()
     b.get();
 
     cout << "\n1, Withdraw\n2. Deposit\nPlease select your option: ";
-    cin c;
+    cin >> c;
 
     switch (c) {
     case 1:
         b.withdraw();
         break;
 
-    case 1:
+    case 2:
         b.deposit();
         break;
 
